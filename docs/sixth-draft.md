@@ -681,6 +681,8 @@ Suggested error categories:
 - `vocabulary-conflict`
 - `semantic`
 
+When a Condition's `kind` resolves against more than one definition, the validator SHOULD report whether that resolution was explicit or fallback.
+
 ---
 
 # 9. Conformance
