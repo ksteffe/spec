@@ -1,13 +1,5 @@
 # Scalable Runtime Conditions Consumption Architecture
 
-*Working synthesis for discussion*
-
-## Status
-
-**Non-normative draft.** This note is intended as a focused companion to the Runtime Conditions white paper. It does not restate the case for Runtime Conditions, the Profile format, extension mechanics, or the basic demand-versus-fulfillment model. Instead, it concentrates on the architecture needed to make that model scale across producers and platforms.
-
----
-
 # 1. Scope
 
 The Runtime Conditions white paper already establishes the core model: workloads express portable runtime demand, extensions provide vocabulary, Profiles are generated and validated, and platform adapters map valid demand to environment-specific fulfillment.
